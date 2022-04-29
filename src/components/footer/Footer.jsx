@@ -89,16 +89,16 @@ export default function Footer() {
                             <h3>사이트</h3>
                             <ul>
                                 <li>
-                                    <Link to="#">웹표준 사이트</Link>
+                                    <Link to="/">웹표준 사이트</Link>
                                 </li>
                                 <li>
-                                    <Link to="#">반응형 사이트</Link>
+                                    <Link to="/">반응형 사이트</Link>
                                 </li>
                                 <li>
-                                    <Link to="#">패럴랙스 사이트</Link>
+                                    <Link to="/">패럴랙스 사이트</Link>
                                 </li>
                                 <li>
-                                    <Link to="#">포트폴리오 사이트</Link>
+                                    <Link to="/">포트폴리오 사이트</Link>
                                 </li>
                             </ul>
                         </div>
