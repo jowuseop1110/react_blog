@@ -6,27 +6,27 @@ export default function Header() {
     return (
         <header id="header">
             <h1 className="logo">
-                <a href="/">
+                <Link to="/">
                     React <em>blog</em>
-                </a>
+                </Link>
             </h1>
             <nav className="menu">
                 <h2 className="ir_so">메인 메뉴</h2>
                 <ul>
                     <li>
-                        <a href="/">HOME</a>
+                        <Link to="/">HOME</Link>
                     </li>
                     <li>
-                        <a href="/login">LOGIN</a>
+                        <Link to="/login">LOGIN</Link>
                     </li>
                     <li>
-                        <a href="/join">JOIN</a>
+                        <Link to="/join">JOIN</Link>
                     </li>
                     <li>
-                        <a href="/view">POST</a>
+                        <Link to="/view">POST</Link>
                     </li>
                     <li>
-                        <a href="/write">WRITE</a>
+                        <Link to="/write">WRITE</Link>
                     </li>
                 </ul>
             </nav>

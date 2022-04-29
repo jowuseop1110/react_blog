@@ -1,5 +1,6 @@
 import React from "react";
 import "./singlePost.css";
+import { Link } from "react-router-dom";
 
 export default function SinglePost() {
     return (
@@ -10,14 +11,14 @@ export default function SinglePost() {
             <h3 className="title">블로그 제목입니다.</h3>
             <div className="info">
                 <span class="author">
-                    <a href="/">조운섭</a>
+                    <Link href="/">조운섭</Link>
                 </span>
                 <span class="date">2022-04-28</span>
                 <span class="modify">
-                    <a href="/">수정</a>
+                    <Link href="/">수정</Link>
                 </span>
                 <span class="delete">
-                    <a href="/">삭제</a>
+                    <Link href="/">삭제</Link>
                 </span>
             </div>
             <div className="desc">

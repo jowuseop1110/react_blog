@@ -1,5 +1,6 @@
 import React from "react";
 import "./mypage.css";
+import { Link } from "react-router-dom";
 
 export default function Mypage() {
     return (
@@ -49,8 +50,8 @@ export default function Mypage() {
                 </div>
 
                 <div class="join-btn">
-                    <a href="/">수정하기</a>
-                    <a href="/">탈퇴하기</a>
+                    <Link to="/">수정하기</Link>
+                    <Link to="/">탈퇴하기</Link>
                 </div>
             </div>
         </section>
