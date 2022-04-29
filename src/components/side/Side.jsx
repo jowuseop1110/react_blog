@@ -9,9 +9,9 @@ export default function Side() {
                     src="https://ads-partners.coupang.com/widgets.html?id=572081&template=carousel&trackingCode=AF5095775&subId=&width=300&height=300"
                     width="300"
                     height="300"
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
-                    referrerpolicy="unsafe-url"
+                    referrerPolicy="unsafe-url"
                 ></iframe>
             </div>
         </div>

@@ -4,9 +4,11 @@ import Side from "../../components/side/Side";
 
 export default function View() {
     return (
-        <main id="main" className="col2">
-            <SinglePost />
-            <Side />
-        </main>
+        <>
+            <main id="main" className="col2">
+                <SinglePost />
+                <Side />
+            </main>
+        </>
     );
 }

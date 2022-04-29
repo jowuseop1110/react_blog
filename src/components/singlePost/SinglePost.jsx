@@ -10,14 +10,14 @@ export default function SinglePost() {
             </div>
             <h3 className="title">블로그 제목입니다.</h3>
             <div className="info">
-                <span class="author">
+                <span className="author">
                     <Link to="/">조운섭</Link>
                 </span>
-                <span class="date">2022-04-28</span>
-                <span class="modify">
+                <span className="date">2022-04-28</span>
+                <span className="modify">
                     <Link to="/">수정</Link>
                 </span>
-                <span class="delete">
+                <span className="delete">
                     <Link to="/">삭제</Link>
                 </span>
             </div>
